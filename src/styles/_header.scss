@@ -1,0 +1,11 @@
+.nc-MainNav1 {
+  &.notOnTop {
+    @apply bg-pink-50 dark:bg-pink-900 backdrop-blur-2xl bg-opacity-80 dark:bg-opacity-70 shadow-sm dark:border-b dark:border-pink-700;
+  }
+}
+
+.menu-item.menu-megamenu:hover {
+  > .sub-menu {
+    @apply visible;
+  }
+}
